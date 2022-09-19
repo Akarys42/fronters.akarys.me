@@ -1,4 +1,5 @@
-@import "light.scss";
+@import "dark.scss" (prefers-color-scheme: dark);
+@import "light.scss" (prefers-color-scheme: light);
 
 * {
     box-sizing: border-box;
